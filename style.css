@@ -1,6 +1,6 @@
 :root {
   background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0,0,0,0.65)),url(bg.jpg);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
