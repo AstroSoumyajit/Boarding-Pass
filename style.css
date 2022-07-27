@@ -3,7 +3,6 @@
   
 }
 
-
 body {
   font-family: system-ui;
   text-align: center;
@@ -11,11 +10,9 @@ body {
   font-size: 1.5em;
 }
 
-h3 {
+h4 {
   font-weight: normal;
-  font-family: 'Times New Roman', Times, serif;
   margin-bottom: 5px;
-  word-spacing: 5px;
 }
 h1 a{
   font-weight: normal;
@@ -24,7 +21,6 @@ h1 a{
   font-size: 1em;
   font-family: sans-serif;
   text-decoration: none;
-  color: #00b7ff;
 }
 
 img {
@@ -40,11 +36,7 @@ main {
 main * {
   margin-bottom: 12px;
 }
-label
-{
-  margin-bottom: 5vh;
-  font-family: 'Times New Roman';
-}
+
 input {
   text-align: center;
   font-size: large;
@@ -60,26 +52,18 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   transition: background-color 5000s ease-in-out 0s;
-  -webkit-text-fill-color: var(--dark-color);
+  -webkit-text-fill-color: var(--dark-color) !important;
 }
 
 button {
-  background: transparent;
+  background: #0022ff;
   color: #fff;
-  border: solid 2px #00b7ff;
+  border: none;
   font-size: 0.8em;
   padding: 5px 15px;
   margin: 20px;
-  height: 7vh;
-  border-radius: 25px;
+  border-radius: 5px;
   cursor: pointer;
-  margin-top: 5vh;
-}
-button:hover
-{
-  background-color: #00b7ff;
-  color: #fff;
-  transition: 0.5s;
 }
 a {
   color: #0011ff;
