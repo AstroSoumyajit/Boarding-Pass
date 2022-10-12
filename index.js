@@ -22,7 +22,7 @@ submitBtn.addEventListener("click", () => {
 });
 
 const generatePDF = async (name) => {
-  const existingPdfBytes = await fetch("./cert2 (2).pdf").then((res) =>
+  const existingPdfBytes = await fetch("./pass1.pdf").then((res) =>
     res.arrayBuffer()
   );
   
