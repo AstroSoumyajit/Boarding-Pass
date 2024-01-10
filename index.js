@@ -22,7 +22,7 @@ submitBtn.addEventListener("click", () => {
 });
 
 const generatePDF = async (name) => {
-  const existingPdfBytes = await fetch("pass1.pdf").then((res) =>
+  const existingPdfBytes = await fetch("pass1 (3).pdf").then((res) =>
     res.arrayBuffer()
   );
   
@@ -64,7 +64,7 @@ const generatePDF = async (name) => {
 
   var file = new File(
     [pdfBytes],
-    "Satellite Masterclass Pass.pdf",
+    "STTIP B-2 Pass.pdf",
     {
       type: "application/pdf;charset=utf-8",
     }
